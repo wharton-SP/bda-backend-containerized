@@ -1,0 +1,27 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "1890:1890"
+    environment:
+      - DB_HOST=db    
+      - DB_USER=bda
+      - DB_PASS=bdabda
+      - DB_NAME=gestion_etudiant
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: bda
+      POSTGRES_PASSWORD: bdabda
+      POSTGRES_DB: gestion_etudiant
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bda -d gestion_etudiant"]
+      interval: 3s 
+      timeout: 3s
+      retries: 10
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d

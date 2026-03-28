@@ -1,0 +1,17 @@
+# ninja log v7
+8	4525	1774665164595665596	CMakeFiles/bda_api.dir/src/models/Suscribe.cpp.o	bfce5e449d37e053
+4	4765	1774665164591665592	CMakeFiles/bda_api.dir/src/models/Audit.cpp.o	a482def3e13e6f49
+4531	10581	1774665169122669387	CMakeFiles/bda_api.dir/src/models/User.cpp.o	769ca3d644956b05
+2	22491	1774665164590267849	CMakeFiles/bda_api.dir/src/controllers/SuscribeController.cpp.o	be7b447cf309ae1c
+1	22547	1774665164588665590	CMakeFiles/bda_api.dir/src/controllers/AuditController.cpp.o	ab3c974be2e8ba9b
+2	24314	1774665164589665591	CMakeFiles/bda_api.dir/src/controllers/AuthController.cpp.o	e05255c6e7c51290
+10592	25198	1774665175179674395	CMakeFiles/bda_api.dir/src/routes/AuthRoutes.cpp.o	fbe002819d8abd7e
+4766	26051	1774665169353669579	CMakeFiles/bda_api.dir/src/routes/AuditRoutes.cpp.o	ac8d50d705e260b8
+22503	30085	1774665187090684032	CMakeFiles/bda_api.dir/src/routes/SuscribeRoutes.cpp.o	b47ebdb1e2e51c0
+3	30592	1774665164590665592	CMakeFiles/bda_api.dir/src/main.cpp.o	dbd9ba96dba45d16
+30592	31920	1774665195179690420	bda_api	57c748691055c8b
+58	4186	1774667658487707923	CMakeFiles/bda_api.dir/src/models/User.cpp.o	769ca3d644956b05
+54	4269	1774667658483707924	CMakeFiles/bda_api.dir/src/models/Suscribe.cpp.o	bfce5e449d37e053
+52	4573	1774667658481707925	CMakeFiles/bda_api.dir/src/models/Audit.cpp.o	a482def3e13e6f49
+50	15623	1774667658479707925	CMakeFiles/bda_api.dir/src/main.cpp.o	dbd9ba96dba45d16
+15623	20411	1774667674052705027	bda_api	57c748691055c8b
